@@ -12,9 +12,9 @@ export const itemService = {
 window.itemService = itemService;
 
 
-function query() {
+function query(filterBy) {
     // return storageService.query('item')
-    return httpService.get(`item`);
+    return httpService.get(`item?filterBy=${encodeURIComponent(filterBy)}`);
 }
 
 function getById(itemId) {

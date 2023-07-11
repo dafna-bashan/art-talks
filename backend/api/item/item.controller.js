@@ -13,7 +13,7 @@ async function getItem(req, res) {
 
 async function getItems(req, res) {
     try {
-        const items = await itemService.query()
+        const items = await itemService.query(req.query.filterBy)
         res.send(items)
     } catch (err) {
         logger.error('Failed to get items', err)

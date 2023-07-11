@@ -1,12 +1,12 @@
 import { itemService } from '../../services/itemService'
 
 
-export function loadItems() {
+export function loadItems(filterBy) {
   return async dispatch => {
     try {
       console.log('load items');
       dispatch({ type: 'LOADING_START' })
-      const items = await itemService.query()
+      const items = await itemService.query(filterBy)
       dispatch({ type: 'SET_ITEMS', items })
       return items
     } catch (err) {

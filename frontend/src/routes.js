@@ -1,15 +1,20 @@
 import { Home } from './pages/Home';
 import { MainApp } from './pages/MainApp';
+import { PaintingDetails } from './pages/PaintingDetails';
 
 
 
 export const routes = [
     {
-        path: '/',
-        component: <Home />
+        path: '/painting/:id',
+        component: <PaintingDetails/>
     },
     {
-        path: '/main',
+        path: '/painting',
         component: <MainApp />
+    },
+    {
+        path: '/',
+        component: <Home />
     }
 ]

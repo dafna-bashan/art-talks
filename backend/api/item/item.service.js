@@ -11,16 +11,21 @@ module.exports = {
 }
 
 
-async function query() {
+async function query(filterBy) {
+    console.log('filetr', filterBy);
     try {
         const collection = await dbService.getCollection('item')
-        var items = await collection.find().toArray()
-        items = items.map(item => {
-            // item.createdAt = ObjectId(item._id).getTimestamp()
-            // Returning fake fresh data
-            // item.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
-            return item
-        })
+        var items
+        if (filterBy && filterBy.length) {
+            items = await collection.find({
+                $or: [
+                    { title: { $regex: filterBy, $options: 'i' } },
+                    { artist: { $regex: filterBy, $options: 'i' } }
+                ]
+            }).toArray()
+        } else {
+            items = await collection.find().toArray()
+        }
         return items
     } catch (err) {
         logger.error('cannot find items', err)

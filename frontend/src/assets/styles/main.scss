@@ -13,11 +13,19 @@
 // Pages
 @import 'pages/mainApp';
 @import 'pages/home';
+@import 'pages/paintingDetails';
 
 
 
 // Components
 @import 'cmps/header';
+@import 'cmps/paintingsList';
+@import 'cmps/paintingPreview';
+@import 'cmps/paintingFilter';
+@import 'cmps/msgList';
+@import 'cmps/addMsg';
+@import 'cmps/msgPreview';
+@import 'cmps/chat';
 
 
 

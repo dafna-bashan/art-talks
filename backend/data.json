@@ -1,0 +1,74 @@
+[
+    {
+        "title": "The Starry Night",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Vincent van Gogh",
+        "image_url": "",
+        "chatMsgs": []
+    },
+    {
+        "title": "Mona Lisa",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Leonardo da Vinci",
+        "image_url": "",
+        "chatMsgs": []
+
+    },
+    {
+        "title": "The Persistence of Memory",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Salvador Dali",
+        "image_url": "",
+        "chatMsgs": []
+
+    },
+    {
+        "title": "Girl with a Pearl Earring",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Johannes Vermeer",
+        "image_url": "",
+        "chatMsgs": []
+    },
+    {
+        "title": "The Creation of Adam",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Michelangelo",
+        "image_url": "",
+        "chatMsgs": []
+    },
+    {
+        "title": "Guernica",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Pablo Picasso",
+        "image_url": "",
+        "chatMsgs": []
+    },
+    {
+        "title": "The Last Supper",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Leonardo da Vinci",
+        "image_url": "",
+        "chatMsgs": []
+    },
+    {
+        "title": "The Scream",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Edvard Munch",
+        "image_url": "",
+        "chatMsgs": []
+    },
+    {
+        "title": "The Birth of Venus",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Sandro Botticelli",
+        "image_url": "",
+        "chatMsgs": []
+    },
+    {
+        "title": "Water Lilies",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
+        "artist": "Claude Monet",
+        "image_url": "",
+        "chatMsgs": []
+    }
+]

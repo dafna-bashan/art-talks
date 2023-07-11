@@ -22,12 +22,14 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const itemRoutes = require('./api/item/item.routes')
+const {setupSocketAPI} = require('./services/socket.service')
 
 // routes
 // const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware')
 // app.all('*', setupAsyncLocalStorage)
 
 app.use('/api/item', itemRoutes)
+setupSocketAPI(http)
 
 app.get('/**', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'))

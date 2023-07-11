@@ -17,7 +17,7 @@ export function Header() {
             <nav className="main-nav flex space-between">
                 <NavLink to="/"><span>Home</span></NavLink>
                 <nav className={open ? 'links open flex' : 'links flex'}>
-                    <NavLink to="/main">App</NavLink>
+                    <NavLink to="/painting">Art Talks</NavLink>
                 </nav>
                 <MenuIcon className="hamburger" onClick={onOpenNavbar}></MenuIcon>
             </nav>
