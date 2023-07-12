@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export function PaintingPreview({ painting }) {
 
-  const { _id, title, description, artist } = painting
+  const { _id, title, description, artist, imageUrl } = painting
 
   return (
     <div className="painting-preview">
@@ -18,7 +18,7 @@ export function PaintingPreview({ painting }) {
           <CardMedia
             component="img"
             height="140"
-            image="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/640px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            image={imageUrl}
             alt={title}
           />
           <CardContent>

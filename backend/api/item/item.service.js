@@ -12,7 +12,6 @@ module.exports = {
 
 
 async function query(filterBy) {
-    console.log('filetr', filterBy);
     try {
         const collection = await dbService.getCollection('item')
         var items

@@ -1,5 +1,32 @@
-.paiting-details {
+.painting-details {
     img {
-        margin-right: 20px;
+        margin-right : 20px;
+        border-radius: 15px;
+        height       : 550px;
+    }
+
+    .paint-title {
+        font-size: xx-large;
+
+        span {
+            font-size: medium;
+            color: grey;
+        }
+    }
+}
+
+@media (max-width: $narrow-breakpoint) {
+    .painting-details {
+        .main {
+            flex-direction: column;
+            height        : 1200px;
+        }
+
+        img {
+            width        : 100%;
+            height       : unset;
+            margin-bottom: 20px;
+
+        }
     }
 }

@@ -3,14 +3,14 @@
         "title": "The Starry Night",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Vincent van Gogh",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/640px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
         "chatMsgs": []
     },
     {
         "title": "Mona Lisa",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Leonardo da Vinci",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
         "chatMsgs": []
 
     },
@@ -18,7 +18,7 @@
         "title": "The Persistence of Memory",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Salvador Dali",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/The_Persistence_of_Memory.jpg/300px-The_Persistence_of_Memory.jpg",
         "chatMsgs": []
 
     },
@@ -26,49 +26,49 @@
         "title": "Girl with a Pearl Earring",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Johannes Vermeer",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/800px-1665_Girl_with_a_Pearl_Earring.jpg",
         "chatMsgs": []
     },
     {
         "title": "The Creation of Adam",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Michelangelo",
-        "image_url": "",
+        "imageUrl": "https://cdn.thecollector.com/wp-content/uploads/2022/03/michelangelo-creation-adam-detail-featured.jpg?width=1400&quality=70",
         "chatMsgs": []
     },
     {
         "title": "Guernica",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Pablo Picasso",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/PicassoGuernica.jpg/400px-PicassoGuernica.jpg",
         "chatMsgs": []
     },
     {
         "title": "The Last Supper",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Leonardo da Vinci",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/The-Last-Supper-Restored-Da-Vinci_32x16.jpg/2560px-The-Last-Supper-Restored-Da-Vinci_32x16.jpg",
         "chatMsgs": []
     },
     {
         "title": "The Scream",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Edvard Munch",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/1200px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg",
         "chatMsgs": []
     },
     {
         "title": "The Birth of Venus",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Sandro Botticelli",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/800px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
         "chatMsgs": []
     },
     {
         "title": "Water Lilies",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non aliquet enim. Suspendisse vel tortor dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam tristique velit eu dui ullamcorper, nec ultricies dolor laoreet. ",
         "artist": "Claude Monet",
-        "image_url": "",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg/1200px-Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg",
         "chatMsgs": []
     }
 ]

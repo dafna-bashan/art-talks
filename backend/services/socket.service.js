@@ -39,21 +39,21 @@ function setupSocketAPI(http) {
             // logger.info(`Socket is joining chatId ${socket.myChatId} [id: ${socket.id}]`)
 
         })
-        socket.on('chat-send-msg', ({ chatId, msg }) => {
+        socket.on('chat-send-msg', ({ paintingId, msg }) => {
             // logger.info(`New chat msg from socket [id: ${socket.id}], emitting to chatId ${socket.myChatId}`)
-            logger.info(`New chat msg from socket [id: ${socket.id}], emitting to chatId ${chatId} msg:${msg}`)
+            logger.info(`New chat msg from socket [id: ${socket.id}], emitting to chatId ${paintingId} msg:${msg}`)
 
             //TODO - EMIT ONLY TO SOCKETS IN THE SAME CHAT - check for bugs
 
             // emits to all sockets:
             // gIo.emit('chat-add-msg', chatId)
             // emits to all sockets except the sender
-            // socket.broadcast.emit('chat-add-msg', chatId)
+            socket.broadcast.emit('chat-add-msg', paintingId)
             // emits only to sockets in the same chat
             // gIo.to(socket.myChatId).emit('chat-add-msg', chatId)
             // emits only to sockets in the same chat except the sender
             // socket.broadcast.to(socket.myChatId).emit('chat-add-msg', chatId)
-            socket.broadcast.to(chatId).emit('chat-add-msg', chatId)
+            // socket.broadcast.to(chatId).emit('chat-add-msg', paintingId)
         })
         socket.on('start-new-chat', data => {
             logger.info(`Start new chat [id: ${socket.id}], emitting to chatId ${data.chatId} userId${data.toUserId}`)

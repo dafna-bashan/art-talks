@@ -10,7 +10,7 @@ export function PaintingDetails() {
     const painting = useSelector(state => state.itemModule.currItem)
     const dispatch = useDispatch()
 
-    const { title, artist } = painting
+    const { title, artist, imageUrl } = painting
     useEffect(() => {
         console.log((params.id))
         dispatch(loadItem(params.id))
@@ -18,10 +18,10 @@ export function PaintingDetails() {
 
     if (!painting) return <div>loading...</div>
     return (
-        <div className="paiting-details flex column">
-            <div className="title">{title} <span>by {artist}</span></div>
-            <div className="flex">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/640px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt={title} />
+        <div className="painting-details flex column">
+            <div className="paint-title">{title} <span>by {artist}</span></div>
+            <div className="main flex">
+                <img src={imageUrl} alt={title} />
                 <Chat currPainting={painting} />
             </div>
         </div>

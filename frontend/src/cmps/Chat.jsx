@@ -1,18 +1,18 @@
 import React, { useEffect, useState } from 'react'
 import { loadItem, updateItem } from '../store/actions/itemActions'
 import { socketService, SOCKET_EMIT_SEND_MSG, SOCKET_EVENT_ADD_MSG } from '../services/socketService'
-import { useDispatch} from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { utilService } from '../services/utilService'
 import { MsgList } from './MsgList'
 import { AddMsg } from './AddMsg'
 
-export function Chat({currPainting}) {
+export function Chat({ currPainting }) {
 
     const [msg, setMsg] = useState({ txt: '' })
     const dispatch = useDispatch()
 
     useEffect(() => {
-
+        console.log(currPainting);
         socketService.on(SOCKET_EVENT_ADD_MSG, (paintingId) => {
             dispatch(loadItem(paintingId))
         })
@@ -36,28 +36,26 @@ export function Chat({currPainting}) {
     }
 
     function addMsg(msg) {
-        // setMsgs(prevMsgs => [...prevMsgs, newMsg])
-        const updatedChat = { ...currPainting.chatMsgs }
+        const updatedPainting = { ...currPainting }
         const newMsg = {
             ...msg,
             _id: utilService.makeId(),
-            from: "Guest",
+            from: sessionStorage.getItem('loggedinUser') || 'Guest',
             sent: Date.now()
         }
-        updatedChat.push(newMsg)
+        updatedPainting.chatMsgs.push(newMsg)
         // console.log(updatedChat);
-        dispatch(updateItem(currPainting._id))
+        dispatch(updateItem(updatedPainting))
     }
 
     return (
         // <div>Chat is in development... </div>
-        <div className="chat flex">
-            <React.Fragment>
+        <div className="chat flex full">
                 <div className="chat-container flex column full">
-                    <MsgList msgs={currPainting.chatMsgs | []}  />
+                    <div className="title">Chat</div>
+                    <MsgList msgs={currPainting.chatMsgs} />
                     <AddMsg msg={msg} handleChange={handleChange} sendMsg={sendMsg} />
                 </div>
-            </React.Fragment>
         </div>
     )
 

@@ -1,5 +1,14 @@
-.chat{
-    width: 330px;
-    border: 1px solid grey;
+.chat {
+    // width        : 330px;
+    border       : 1px solid grey;
     border-radius: 15px;
+    height       : 550px;
+
+    .title {
+        padding: 5px 25px;
+        background-color: #e2e2e2;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+
+    }
 }
